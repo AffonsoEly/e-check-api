@@ -1,6 +1,6 @@
 # Fase 1: Build (Compilação)
 # Usa uma imagem do Maven com Java 17 para compilar o projeto
-FROM maven:3.8.7-jdk-17-slim AS build
+FROM maven:3-jdk-17 AS build
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
